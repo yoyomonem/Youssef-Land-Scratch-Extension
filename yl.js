@@ -1,3 +1,4 @@
+import { Project } from "https://unpkg.com/leopard@^1/dist/index.esm.js";
 class ScratchYL {
     constructor(){
         /* nothing to add here */
@@ -29,6 +30,9 @@ class ScratchYL {
                 }
             ]
         };
+    }
+    whenFlagClicked(){
+        Project.greenFlag();
     }
 }
 Scratch.extensions.register(new ScratchYL());
