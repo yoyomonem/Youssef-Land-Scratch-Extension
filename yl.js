@@ -14,7 +14,7 @@ class ScratchYL {
                     "text": "when the green flag is clicked"
                 },
                 {
-                    "opcode": "sayTextForSecs",
+                    "opcode": "sayTextForSecs({{text}}, {{secs}})",
                     "blockType": "command",
                     "text": "say [text] for (secs) secs",
                     "arguments": {
