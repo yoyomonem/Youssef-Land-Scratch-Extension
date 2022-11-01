@@ -13,7 +13,19 @@ class ScratchYL {
                     "text": "when the green flag is clicked"
                 },
                 {
-                    "opcode": ""
+                    "opcode": "sayTextForSecs",
+                    "blockType": "command",
+                    "text": "say [text] for (secs) secs",
+                    "arguments": {
+                        "text": {
+                            "type": "string",
+                            "defaultValue": "Hello!"
+                        },
+                        "secs": {
+                            "type": "number",
+                            "defaultValue": 2
+                        }
+                    }
                 }
             ]
         };
