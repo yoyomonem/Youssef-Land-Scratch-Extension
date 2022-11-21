@@ -1,0 +1,14 @@
+{
+    "name": "youssef-land-scratch-extension",
+    "displayName": "Youssef Land for Scratch",
+    "private": false,
+    "version": "1.0.0",
+    "author": {
+        "name": "Youssef Nasr",
+        "email": "yoyo.monem22@gmail.com",
+        "url": "https://the-youssef-nasr-company.github.io"
+    },
+    "dependencies": {
+        "@turbowarp/extensions": "github:TurboWarp/extensions"
+    }
+}
