@@ -1,5 +1,5 @@
 /// <reference path="../node_modules/@turbowarp/types/types/scratch-vm.d.ts" />
-
+/** Came from <a href="https://github.com/TurboWarp/extensions">TurboWarp/extensions</a>. */
 declare namespace Scratch {
     namespace ArgumentType {
       /** @deprecated not tested -- do not rely on yet */
