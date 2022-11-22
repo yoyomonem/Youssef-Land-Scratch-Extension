@@ -1,5 +1,5 @@
 import Project from "https://unpkg.com/leopard@^1/dist/index.esm.js";
-import "./types/Scratch";
+import "scratch-extension-types";
 class ScratchYL {
     constructor() {
         /* nothing to add here */
