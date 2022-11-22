@@ -10,6 +10,7 @@
     },
     "dependencies": {
         "@turbowarp/extensions": "github:TurboWarp/extensions",
-        "@turbowarp/types": "github:TurboWarp/types"
+        "@turbowarp/types": "github:TurboWarp/types",
+        "scratch-extension-types": "local"
     }
 }
