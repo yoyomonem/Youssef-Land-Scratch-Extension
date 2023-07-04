@@ -10,11 +10,12 @@ class StrictEqualityExtension {
           text: '[1] === [2]',
           arguments: {
             1: {
-              type: Scratch.ArgumentType.STRING
+              type: Scratch.ArgumentType.STRING,
+              defaultValue: ""
             },
             2: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: '50'
+              defaultValue: "50"
             }
           }
         }
