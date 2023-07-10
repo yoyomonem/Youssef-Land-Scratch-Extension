@@ -1,13 +1,13 @@
-class StrictEqualityExtension {
+class Strict {
   getInfo() {
     return {
-      id: 'strictequality',
-      name: 'Strict Equality',
+      id: "strictequality",
+      name: "Strict Equality",
       blocks: [
         {
-          opcode: 'strictlyEquals',
+          opcode: "strictlyEquals",
           blockType: Scratch.BlockType.BOOLEAN,
-          text: '[1] === [2]',
+          text: "[1] === [2]",
           arguments: {
             1: {
               type: Scratch.ArgumentType.STRING,
@@ -20,12 +20,14 @@ class StrictEqualityExtension {
           }
         }
       ]
-    };
-  }
+  	};
+	}
 
   strictlyEquals(args) {
-    return args[1] === args[2];
+      return args[1] === args[2];
   }
 }
 
-Scratch.extensions.register(new StrictEqualityExtension());
+const strict = new Strict();
+
+Scratch.extensions.register(strict);
